@@ -1,0 +1,23 @@
+.pagination span{
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--secondary-color);
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+.t1{
+    /* background: linear-gradient(90deg, #FFF4F3, #F7F5FE); */
+
+}
+
+.active__page{
+    background-color: var(--secondary-color);
+    color: #fff !important;
+}

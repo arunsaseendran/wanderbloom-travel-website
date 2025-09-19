@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Taj Mahal",
+    "city": "Agra",
+    "address": "Dharmapuri, Forest Colony, Tajganj, Agra",
+    "distance": 220,
+    "price": 150,
+    "maxGroupSize": 10,
+    "desc": "One of the Seven Wonders of the World, the Taj Mahal is a symbol of eternal love built by Emperor Shah Jahan.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img01.jpg",
+    "featured": true
+  },
+  {
+    "title": "Jaipur City Palace",
+    "city": "Jaipur",
+    "address": "Jaleb Chowk, Jaipur, Rajasthan",
+    "distance": 280,
+    "price": 120,
+    "maxGroupSize": 12,
+    "desc": "A stunning blend of Mughal and Rajput architecture, the Jaipur City Palace is a cultural and historical landmark.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img02.jpg",
+    "featured": true
+  },
+  {
+    "title": "Kerala Backwaters",
+    "city": "Alleppey",
+    "address": "Houseboat rides, Alleppey, Kerala",
+    "distance": 600,
+    "price": 180,
+    "maxGroupSize": 6,
+    "desc": "Experience the scenic beauty of Kerala with houseboat cruises through serene backwaters surrounded by palm trees.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img03.jpg",
+    "featured": true
+  },
+  {
+    "title": "Golden Temple",
+    "city": "Amritsar",
+    "address": "Golden Temple Road, Amritsar, Punjab",
+    "distance": 450,
+    "price": 100,
+    "maxGroupSize": 15,
+    "desc": "The holiest Gurdwara of Sikhism, the Golden Temple is renowned for its breathtaking beauty and peaceful atmosphere.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img04.jpg",
+    "featured": true
+  },
+  {
+    "title": "Goa Beaches",
+    "city": "Goa",
+    "address": "Baga, Calangute, and Anjuna Beaches, Goa",
+    "distance": 700,
+    "price": 200,
+    "maxGroupSize": 20,
+    "desc": "Relax on the golden sands, enjoy thrilling water sports, and experience vibrant nightlife in Goa.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img05.jpg",
+    "featured": true
+  },
+  {
+    "title": "Mysore Palace",
+    "city": "Mysore",
+    "address": "Sayyaji Rao Rd, Mysuru, Karnataka",
+    "distance": 350,
+    "price": 110,
+    "maxGroupSize": 12,
+    "desc": "An architectural marvel, the Mysore Palace is known for its grandeur and royal history of the Wadiyar dynasty.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img06.jpg",
+    "featured": true
+  },
+  {
+    "title": "Varanasi Ghats",
+    "city": "Varanasi",
+    "address": "Dashashwamedh Ghat, Varanasi, Uttar Pradesh",
+    "distance": 400,
+    "price": 90,
+    "maxGroupSize": 10,
+    "desc": "One of the world’s oldest cities, Varanasi offers spiritual experiences with mesmerizing Ganga Aarti on the ghats.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img07.jpg",
+    "featured": true
+  },
+  {
+    "title": "Ranthambore National Park",
+    "city": "Sawai Madhopur",
+    "address": "Ranthambore, Rajasthan",
+    "distance": 500,
+    "price": 250,
+    "maxGroupSize": 8,
+    "desc": "Famous for Bengal tigers, Ranthambore offers thrilling safaris through wildlife-rich forests.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img08.jpg",
+    "featured": false
+  },
+  {
+    "title": "Charminar",
+    "city": "Hyderabad",
+    "address": "Char Kaman, Ghansi Bazaar, Hyderabad, Telangana",
+    "distance": 320,
+    "price": 80,
+    "maxGroupSize": 15,
+    "desc": "A historic mosque and iconic monument of Hyderabad, Charminar is a masterpiece of Indo-Islamic architecture.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img09.jpg",
+    "featured": false
+  },
+  {
+    "title": "Himalayan Trek",
+    "city": "Manali",
+    "address": "Himachal Pradesh, India",
+    "distance": 900,
+    "price": 300,
+    "maxGroupSize": 6,
+    "desc": "Perfect for adventure seekers, the Himalayan treks near Manali offer stunning landscapes and snow-covered peaks.",
+    "reviews": [],
+    "photo": "/tour-images/tour-img10.jpg",
+    "featured": false
+  }
+]

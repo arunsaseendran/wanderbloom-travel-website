@@ -1,0 +1,107 @@
+.manage-bookings {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.mb{
+    /* background: linear-gradient(90deg, #FFF4F3, #F7F5FE); */
+
+}
+
+.manage-bookings .empty-state {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2.25rem;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  max-width: 720px;
+  margin: 0 auto 2rem;
+}
+.manage-bookings .empty-state h4 {
+  margin: 0 0 .25rem;
+  font-weight: 700;
+  color: #222;
+}
+.manage-bookings .empty-state p {
+  margin: 0 0 1rem;
+  color: #6b7280;
+}
+.manage-bookings .explore-btn {
+  text-decoration: none;
+}
+
+/* Grid */
+.booking-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.25rem;
+}
+@media (min-width: 640px) {
+  .booking-grid > .booking-card { grid-column: span 6; }
+}
+@media (min-width: 1024px) {
+  .booking-grid > .booking-card { grid-column: span 4; }
+}
+
+/* Card */
+.booking-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.06);
+  border: 1px solid rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.booking-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.booking-card__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: .75rem;
+}
+.booking-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+/* Meta rows */
+.booking-meta {
+  display: grid;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+.meta-row {
+  display: flex;
+  align-items: center;
+  color: #4b5563; /* gray-600 */
+  font-size: .95rem;
+}
+.meta-row .icon {
+  width: 18px;
+  height: 18px;
+  margin-right: .5rem;
+  color: #ff7e01; /* site accent */
+}
+
+/* Actions */
+.booking-actions {
+  display: flex;
+  gap: .5rem;
+  justify-content: flex-end;
+}
+
+/* Error text */
+.error-text {
+  color: #ef4444; /* red-500 */
+}

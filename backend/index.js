@@ -21,9 +21,10 @@ const port = process.env.PORT || 8000;
 
 // CORS setup
 const corsOptions = {
-    origin: process.env.CORS_ORIGIN || true,
-    credentials: true
+  origin: process.env.CORS_ORIGIN,
+  credentials: true,
 };
+
 
 // Database connection
 mongoose.set('strictQuery', false);

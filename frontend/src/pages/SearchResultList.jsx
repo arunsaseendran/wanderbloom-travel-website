@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'reactstrap';
 import { useLocation } from 'react-router-dom';
 import TourCard from  './../shared/TourCard'
 import Newsletter from '../shared/ff'
-
+import "../styles/tour.css"
 const SearchResultList = () => {
 
 const location = useLocation()
@@ -14,7 +14,15 @@ const [data]= useState(location.state)
 
   return (
     <>
-     <CommonSection title={'Tour search result'}/>
+     {/* <CommonSection title={'Tour search result'}/> */}
+
+     <h1 align='center'>
+    <br/>
+    <span className="gradient-text">
+            Search Results</span>
+            </h1>
+
+
      <section>
       <Container>
         <Row>
@@ -28,7 +36,7 @@ const [data]= useState(location.state)
         </Row>
       </Container>
      </section>
-     <Newsletter/>
+     {/* <Newsletter/> */}
     </>
   )
 }
